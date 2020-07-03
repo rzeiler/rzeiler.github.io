@@ -1,0 +1,24 @@
+{
+    "name": "homepage",
+    "version": "1.0.0",
+    "description": "---\r heroImage: /profile.jpg\r home: true\r sidebar: true\r actionText: Touren\r actionLink: /reisen/Col_de_Lauzet.html\r features:\r - title: Visual Studio und IIS 10 Einrichtung\r   details:  Visual Studio 2017 und IIS 10 richtig einrichten damit mehere Entwickler debuggen können.\r   actionLink: '/blog/vs2017_iis10.html'\r   actionText: 'Mehr'\r - title: Code\r   details: Erfahrungen und Lösungen die beim arbeiten aufgetaucht sind.\r   actionLink: '/blog/vuepress_global_node_module.html'\r   actionText: 'Mehr'\r - title: Reisen\r   details: Reisen die anstehen. \r   actionLink: '/reisen/Col_de_Lauzet.html'\r   actionText: 'Mehr'\r pageClass: 'center-navbar'\r description: 'The biography and information about me.'\r ---",
+    "main": "index.js",
+    "dependencies": {
+        "ol": "^5.3.3"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "build": "vuepress build",
+        "dev": "vuepress dev"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://gitlab.com/rze_dev/homepage.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://gitlab.com/rze_dev/homepage/issues"
+    },
+    "homepage": "https://gitlab.com/rze_dev/homepage#readme"
+}
